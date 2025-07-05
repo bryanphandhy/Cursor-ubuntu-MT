@@ -59,7 +59,7 @@ installCursor() {
 
     if [ "$appimage_option" = "1" ]; then
         # --- Check required tools ---
-        for cmd in curl wget jq; do
+        for cmd in curl wget jq rsync; do
             if ! command -v $cmd &> /dev/null; then
                 echo "$cmd is not installed. Installing..."
                 sudo apt-get update
