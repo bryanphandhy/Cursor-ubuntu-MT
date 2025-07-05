@@ -48,7 +48,7 @@ This helps users quickly recognize the script's purpose and provides a more plea
 - Ubuntu 24.04 (or compatible)
 - Internet connection
 - `sudo` privileges
-- `curl`, `wget`, and `jq` (the script will attempt to install them if missing)
+- `curl`, `wget`, `jq`, and `rsync` (the script will attempt to install them if missing)
 
 ---
 
@@ -101,7 +101,7 @@ You will be prompted to choose one of these icons during installation.
 
 ## 🛠️ What the Script Does
 - Installs or updates Cursor AI IDE
-- Checks for and installs required tools (`curl`, `wget`, `jq`)
+- Checks for and installs required tools (`curl`, `wget`, `jq`, `rsync`)
 - Downloads and extracts the Cursor AppImage to `/opt/Cursor/`
 - Downloads your chosen icon to `/opt/Cursor/`
 - Creates a desktop entry for easy launching
